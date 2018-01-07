@@ -9,7 +9,7 @@ require 'pry'
  }
 
 def get_the_values(groceries)
-  values_of_keys = groceries.flatten.value
+  values_of_keys = groceries.values.flatten
   return values_of_keys
 end
 get_the_values(groceries)
