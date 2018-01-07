@@ -10,6 +10,6 @@ require 'pry'
 
 def get_the_min(groceries)
   min_values = groceries.values.flatten.min
-  puts min_values
+#  puts min_values
 end
-get_the_min(groceries)
+# get_the_min(groceries)
